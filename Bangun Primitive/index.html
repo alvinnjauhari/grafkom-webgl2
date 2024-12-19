@@ -1,14 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Belajar Web GL</title>
-    <script type="text/javascript" src="main.js"></script>
-</head>
-<body onload="main()">
-    <canvas id="myCanvas" style="border: 1px solid black;" width="650px" height="650px">
-
-    </canvas>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Belajar WebGL dengan Three.js</title>
+    <!-- Menyertakan Three.js -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <!-- Menyertakan MTLLoader -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/MTLLoader.js"></script>
+    <!-- Menyertakan OBJLoader -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/loaders/OBJLoader.js"></script>
+    <!-- Menyertakan OrbitControls -->
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+    <!-- Menyertakan file badel.js -->
+    <script type="text/javascript" src="final.js"></script>
+  </head>
+  <body onload="main()">
+    <canvas id="myCanvas" style="border: 1px solid"></canvas>
+  </body>
 </html>

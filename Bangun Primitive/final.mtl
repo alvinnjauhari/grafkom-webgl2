@@ -1,0 +1,34 @@
+# Blender 4.2.3 LTS MTL File: 'masuaku.blend'
+# www.blender.org
+
+newmtl Material
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd ./Wood066_4K-JPG_Color.jpg
+
+newmtl Material.005
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd ./Wood066_4K-JPG_Color.jpg
+map_Ns ./Wood066_4K-JPG_Roughness.jpg
+map_Bump -bm 1.000000 ./Wood066_4K-JPG_NormalGL.jpg
+
+newmtl Material.006
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd ./Travertine009_2K-JPG_Color.jpg
+map_Ns ./Travertine009_2K-JPG_Roughness.jpg
+map_Bump -bm 1.000000 ./Travertine009_2K-JPG_NormalGL.jpg
